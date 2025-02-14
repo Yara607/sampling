@@ -9,6 +9,9 @@ import seaborn as sns
 # which we currently have no direct control over. This action is taken to ensure that our output remains
 # focused on relevant information, acknowledging that we rely on external library updates to fully resolve
 # these deprecations. Always consider reviewing and removing this suppression after significant library updates.
+
+np.random.seed(42)
+
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
@@ -68,7 +71,7 @@ def simulate_event(m):
   return p_wedding_infections, p_wedding_traces
 
 # Run the simulation 1000 times
-results = [simulate_event(m) for m in range(1000)]
+results = [simulate_event(m) for m in range(100)]
 props_df = pd.DataFrame(results, columns=["Infections", "Traces"])
 
 # Plotting the results
