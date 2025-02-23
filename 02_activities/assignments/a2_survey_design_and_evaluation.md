@@ -40,38 +40,81 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+We aim to understand the reasons behind employee turnover in the company and identify key factors influencing job satisfaction and dissatisfaction. The insights gained will help implement strategies to improve employee retention and overall satisfaction.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target Population: All employees of the company.
+Sampling Frame: Employees with registered company email addresses.
+Sampling Unit: Individual employees.
+Sampling Strategy: Stratified sampling, where employees are grouped by position level (entry, lower, mid, and senior levels) to ensure representation across all levels.
+
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
-```
+Using the Likert scale and a combination of positive and negative sentences in order to reduce response bias and prevent employees from simply agreeing with everything.question8,9, and 10 are different. 
+Instructions: Please rate each statement on a scale of 1 to 5, where:
+1 = Strongly Disagree
+2 = Disagree
+3 = Neutral
+4 = Agree
+5 = Strongly Agree
+1-There are sufficient opportunities for career growth in this company. (Positive)
+2-The physical working conditions (e.g., lighting, temperature, office space) are not acceptable. (Negative)
+3-I am satisfied with my salary and benefits. (Positive)
+4-Management does not provide enough support for employees. (Negative)
+5-The company does not encourage or support innovative ideas. (Negative)
+6-In general I am satisfied with working at this company. (Positive)
+7-I have considered leaving this company in the past 6 months. (Negative)
+8- What are the top three factors influencing your job satisfaction? (Select up to 3)
+•	Salary & Benefits
+•	Work-Life Balance
+•	Career Growth Opportunities
+•	Management & Leadership
+•	Workplace Culture
+•	Job Security
+•	Workload & Responsibilities
+9- If you are considering leaving, what is the primary reason?
+•	Compensation & Benefits
+•	Lack of Career Advancement
+•	Workload & Stress
+•	Poor Management or Leadership
+•	Company Culture
+•	Other (Please specify)
+10- What improvements would make you more likely to stay with the company? (Open-ended)
+
 
 ## Part B - Survey Evaluation:
 
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: Probability Sampling(Stratified random Sampling)
+The population is divided into provinces (strata), with minimum sample sizes set for each to ensure reliable estimates. After meeting these targets, the remaining sample is allocated to balance precision at both national and stratum levels.
+2. Sample size:A field sample of approximately 50,000 units was used, with about 40,000 invitation letters sent for the electronic questionnaire, and 24,000 completed questionnaires expected.
+3. Target population:  volunteering and participating includes all persons 15 years of age and older living in the ten provinces of Canada. It excludes full-time (residing for more than six months) residents of institutions.
+4. Sampling frame:The sampling frame combines landline and cellular telephone numbers from the Census and various administrative sources with Statistics Canada's dwelling frame. It groups telephone numbers associated with the same address to better cover households with a telephone number.
+5. Survey mode(s) :Mixed-Mode Surveys(Self-Administered Surveys and Interviewer-Administered Surveys)
+The survey is conducted using a combination of an electronic questionnaire and computer-assisted telephone interviewing (CATI). Respondents have the option to complete the survey in either French or English.
+6. Timeline:The data collection for the survey took place from September 4 to December 28, 2018. The survey is conducted every 5 years.
+7. Response rate:41.9%
+8. Weights:The survey uses a basic weighting factor, WGHT_PER, for person-level analysis. This weight accounts for the sampling design and ensures the data is representative of the target population. Additionally, bootstrap weights were created for variance estimation. The weights are adjusted to align with demographic characteristics, like age and sex, for precision in national and provincial estimates.
+9. Data processing:Data processing for the survey involved multiple stages:
+ First, errors were caught both automatically and manually, checking things like consistency and whether the data made sense. The CATI system helped flag problems, and interviewers fixed them during the call. For missing data, we used a method where similar responses from other people were used to fill in the blanks. For income, we linked to tax records, and if those weren’t available, we filled in missing income info. The data were then weighted to make sure they matched the target population, and special weights were used to estimate how accurate the results were. Quality checks were done by comparing the data to other sources and looking for big changes over time. Finally, extra steps were taken to keep people's info confidential and prevent anything from being accidentally revealed.
+10. Cleaning, imputation, etc:
+The data went through cleaning and checks to make sure everything was accurate. If any data was missing, we used imputation to fill in the gaps. For example, if a person’s income wasn’t reported, we linked it to their tax records. If that didn’t work, we filled it in using similar people’s data. We also made sure the data were consistent by running various checks, like comparing family details or ensuring answers followed the right flow. The system helped catch mistakes in real time, and if something couldn’t be fixed right away, it was sent for further review. After that, everything was weighted to represent the population more accurately.
+11. Sources of error:
+There are two main types of errors in the survey: sampling errors and non-sampling errors. Sampling errors happen because we only surveyed a sample of people, not everyone, so the results might differ from what we'd get if everyone participated. Non-sampling errors can come from things like not being able to reach certain households (coverage error), people not responding (non-response), or mistakes in how data was recorded or processed. To minimize these, adjustments were made to the data to make sure the results still represent the entire population as accurately as possible.
+12. Limitations, known biases, etc:
+Some limitations and biases include non-response bias, where certain groups of people might not have responded, and coverage error, where households without phones were not included in the survey. These could make the results slightly less accurate. However, adjustments were made to minimize these biases, like using additional data from administrative sources and weighting the responses to better reflect the full population. Despite these efforts, some small biases might still remain, but they are unlikely to significantly impact the overall findings
+13. Link to documentation and any additional sources used:
+For more details, you can refer to the official documentation titled The General Social Survey: An Overview. The last review was on January 7, 2021, and it is available in HTML format in this url :https://www150.statcan.gc.ca/n1/en/catalogue/89F0115X
 ```
 
 ## Rubric
